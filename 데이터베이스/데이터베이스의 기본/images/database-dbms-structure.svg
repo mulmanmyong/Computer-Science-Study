@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <rect width="1200" height="320" fill="#ffffff"/>
+  <g font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" text-anchor="middle">
+    <rect x="70" y="90" width="280" height="140" rx="20" fill="#edf3ff" stroke="#8da4cc" stroke-width="3"/>
+    <text x="210" y="153" font-size="30" font-weight="700" fill="#26344d">응용 프로그램</text><text x="210" y="193" font-size="22" fill="#52617a">쿼리 요청 · 결과 사용</text>
+    <rect x="460" y="90" width="280" height="140" rx="20" fill="#fff3dc" stroke="#d6a957" stroke-width="3"/>
+    <text x="600" y="153" font-size="30" font-weight="700" fill="#4b3820">DBMS</text><text x="600" y="193" font-size="22" fill="#705b38">데이터 제어 · 관리</text>
+    <ellipse cx="990" cy="115" rx="135" ry="38" fill="#e8f7ef" stroke="#69a884" stroke-width="3"/><path d="M855 115v100c0 21 60 38 135 38s135-17 135-38V115" fill="#e8f7ef" stroke="#69a884" stroke-width="3"/><ellipse cx="990" cy="215" rx="135" ry="38" fill="#e8f7ef" stroke="#69a884" stroke-width="3"/>
+    <text x="990" y="175" font-size="28" font-weight="700" fill="#254c36">데이터베이스</text>
+    <path d="M370 140 H425" stroke="#52617a" stroke-width="5"/><path d="M425 128 L445 140 L425 152 Z" fill="#52617a"/>
+    <path d="M440 190 H385" stroke="#52617a" stroke-width="5"/><path d="M385 178 L365 190 L385 202 Z" fill="#52617a"/>
+    <path d="M760 140 H810" stroke="#52617a" stroke-width="5"/><path d="M810 128 L830 140 L810 152 Z" fill="#52617a"/>
+    <path d="M825 190 H775" stroke="#52617a" stroke-width="5"/><path d="M775 178 L755 190 L775 202 Z" fill="#52617a"/>
+  </g>
+</svg>

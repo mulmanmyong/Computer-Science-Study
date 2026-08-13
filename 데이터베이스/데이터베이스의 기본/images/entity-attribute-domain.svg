@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="660" viewBox="0 0 1400 660">
+  <rect width="1400" height="660" fill="#ffffff"/>
+  <g font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" text-anchor="middle">
+    <text x="700" y="50" font-size="32" font-weight="700" fill="#28364d">엔터티와 속성, 도메인의 관계</text>
+
+    <rect x="60" y="245" width="250" height="150" rx="22" fill="#edf3ff" stroke="#7891bc" stroke-width="3"/>
+    <text x="185" y="305" font-size="25" font-weight="700" fill="#405a87">엔터티</text>
+    <text x="185" y="355" font-size="34" font-weight="700" fill="#28364d">회원</text>
+
+    <path d="M310 320 H385" stroke="#65748b" stroke-width="4"/>
+    <path d="M385 307 L407 320 L385 333 Z" fill="#65748b"/>
+
+    <rect x="430" y="90" width="330" height="100" rx="18" fill="#eaf8f0" stroke="#6ca284" stroke-width="3"/>
+    <rect x="430" y="210" width="330" height="100" rx="18" fill="#eaf8f0" stroke="#6ca284" stroke-width="3"/>
+    <rect x="430" y="330" width="330" height="100" rx="18" fill="#eaf8f0" stroke="#6ca284" stroke-width="3"/>
+    <rect x="430" y="450" width="330" height="100" rx="18" fill="#eaf8f0" stroke="#6ca284" stroke-width="3"/>
+    <g font-size="22" font-weight="700" fill="#356749">
+      <text x="595" y="130">속성</text><text x="595" y="165" font-size="27" fill="#28364d">회원 번호</text>
+      <text x="595" y="250">속성</text><text x="595" y="285" font-size="27" fill="#28364d">이름</text>
+      <text x="595" y="370">속성</text><text x="595" y="405" font-size="27" fill="#28364d">이메일</text>
+      <text x="595" y="490">속성</text><text x="595" y="525" font-size="27" fill="#28364d">회원 상태</text>
+    </g>
+
+    <path d="M760 140 H835" stroke="#65748b" stroke-width="4"/><path d="M835 127 L857 140 L835 153 Z" fill="#65748b"/>
+    <path d="M760 260 H835" stroke="#65748b" stroke-width="4"/><path d="M835 247 L857 260 L835 273 Z" fill="#65748b"/>
+    <path d="M760 380 H835" stroke="#65748b" stroke-width="4"/><path d="M835 367 L857 380 L835 393 Z" fill="#65748b"/>
+    <path d="M760 500 H835" stroke="#65748b" stroke-width="4"/><path d="M835 487 L857 500 L835 513 Z" fill="#65748b"/>
+
+    <rect x="880" y="90" width="450" height="100" rx="18" fill="#fff3dc" stroke="#d3a24d" stroke-width="3"/>
+    <rect x="880" y="210" width="450" height="100" rx="18" fill="#fff3dc" stroke="#d3a24d" stroke-width="3"/>
+    <rect x="880" y="330" width="450" height="100" rx="18" fill="#fff3dc" stroke="#d3a24d" stroke-width="3"/>
+    <rect x="880" y="450" width="450" height="100" rx="18" fill="#fff3dc" stroke="#d3a24d" stroke-width="3"/>
+    <g font-size="22" font-weight="700" fill="#8a601b">
+      <text x="1105" y="120">도메인</text><text x="1105" y="150" font-size="21" fill="#4f3a1c">양의 정수</text><text x="1105" y="177" font-size="19" fill="#70552d">예: {1, 2, 3, ...}</text>
+      <text x="1105" y="240">도메인</text><text x="1105" y="270" font-size="21" fill="#4f3a1c">100자 이내의 문자열</text><text x="1105" y="297" font-size="19" fill="#70552d">예: {홍길동, 김철수, 이영희, ...}</text>
+      <text x="1105" y="360">도메인</text><text x="1105" y="390" font-size="21" fill="#4f3a1c">이메일 형식의 문자열</text><text x="1105" y="417" font-size="18" fill="#70552d">예: {gildong@example.com, ...}</text>
+      <text x="1105" y="480">도메인</text><text x="1105" y="510" font-size="21" fill="#4f3a1c">정해진 상태값</text><text x="1105" y="537" font-size="18" fill="#70552d">{ACTIVE, DORMANT, WITHDRAWN}</text>
+    </g>
+
+    <text x="700" y="620" font-size="23" fill="#52617a">엔터티는 여러 속성을 가지며, 각 속성의 값은 정해진 도메인 안에서 선택된다.</text>
+  </g>
+</svg>

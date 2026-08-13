@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500">
+  <rect width="1400" height="500" fill="#fff"/><g font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" text-anchor="middle" fill="#27344b">
+  <text x="580" y="55" font-size="32" font-weight="700">회원 테이블</text>
+  <rect x="60" y="105" width="1040" height="300" rx="8" fill="#fff" stroke="#65748b" stroke-width="3"/>
+  <rect x="60" y="105" width="1040" height="75" fill="#eaf1ff"/>
+  <rect x="60" y="255" width="1040" height="75" fill="#fff4dc"/>
+  <g stroke="#65748b" stroke-width="2"><path d="M60 180h1040M60 255h1040M60 330h1040"/><path d="M280 105v300M520 105v300M840 105v300"/></g>
+  <g font-size="25" font-weight="700"><text x="170" y="153">member_id</text><text x="400" y="153">name</text><text x="680" y="153">email</text><text x="970" y="153">status</text></g>
+  <g font-size="24"><text x="170" y="228">1</text><text x="400" y="228">홍길동</text><text x="680" y="228">gildong@example.com</text><text x="970" y="228">ACTIVE</text><text x="170" y="303">2</text><text x="400" y="303">김철수</text><text x="680" y="303">chulsoo@example.com</text><text x="970" y="303">DORMANT</text><text x="170" y="378">3</text><text x="400" y="378">이영희</text><text x="680" y="378">younghee@example.com</text><text x="970" y="378">ACTIVE</text></g>
+  <text x="170" y="35" font-size="22" font-weight="700" fill="#5479ba">필드(열)</text><path d="M170 48v35" stroke="#5479ba" stroke-width="4"/><path d="M158 83l12 20 12-20z" fill="#5479ba"/>
+  <text x="1245" y="255" font-size="22" font-weight="700" fill="#a56e18">레코드(튜플)</text><path d="M1300 292h-172" stroke="#c38a2e" stroke-width="4"/><path d="M1128 280l-20 12 20 12z" fill="#c38a2e"/>
+  </g>
+</svg>

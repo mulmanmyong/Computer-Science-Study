@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610">
+ <rect width="1200" height="610" fill="#fff"/><g font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" text-anchor="middle" fill="#29364c">
+ <g font-size="27" font-weight="700"><text x="100" y="65">일대일(1:1)</text><text x="100" y="255">일대다(1:N)</text><text x="100" y="445">다대다(N:M)</text></g>
+ <g stroke="#7a8aa3" stroke-width="3"><rect x="270" y="20" width="250" height="90" rx="15" fill="#edf3ff"/><rect x="790" y="20" width="250" height="90" rx="15" fill="#eaf8f0"/><path d="M520 65h270"/><rect x="270" y="210" width="250" height="90" rx="15" fill="#edf3ff"/><rect x="790" y="210" width="250" height="90" rx="15" fill="#eaf8f0"/><path d="M520 255h270"/><rect x="270" y="400" width="250" height="90" rx="15" fill="#edf3ff"/><rect x="790" y="400" width="250" height="90" rx="15" fill="#eaf8f0"/><path d="M520 445h270"/></g>
+ <g font-size="26" font-weight="700"><text x="395" y="75">회원</text><text x="915" y="75">회원 상세</text><text x="395" y="265">회원</text><text x="915" y="265">주문</text><text x="395" y="455">학생</text><text x="915" y="455">강의</text></g>
+ <g font-size="32" font-weight="700" fill="#53647e"><text x="555" y="55">1</text><text x="755" y="55">1</text><text x="555" y="245">1</text><text x="755" y="245">N</text><text x="555" y="435">N</text><text x="755" y="435">M</text></g>
+ <rect x="420" y="530" width="360" height="60" rx="12" fill="#fff3dc" stroke="#d3a24d" stroke-width="2"/><text x="600" y="568" font-size="23" font-weight="700">다대다 관계는 연결 테이블로 해소</text>
+ </g></svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590">
+ <rect width="1200" height="590" fill="#fff"/><g font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" text-anchor="middle">
+ <text x="600" y="50" font-size="31" font-weight="700" fill="#29364c">키의 포함 관계</text>
+ <rect x="100" y="85" width="720" height="420" rx="28" fill="#edf3ff" stroke="#7891bc" stroke-width="3"/><text x="200" y="130" font-size="27" font-weight="700" fill="#405a87">슈퍼키</text>
+ <rect x="210" y="155" width="500" height="290" rx="26" fill="#eaf8f0" stroke="#6ca284" stroke-width="3"/><text x="315" y="200" font-size="27" font-weight="700" fill="#356749">후보키</text>
+ <rect x="275" y="240" width="170" height="130" rx="20" fill="#fff3dc" stroke="#d3a24d" stroke-width="3"/><text x="360" y="295" font-size="25" font-weight="700" fill="#795619">기본키</text><text x="360" y="330" font-size="20" fill="#795619">선택된 후보키</text>
+ <rect x="480" y="240" width="170" height="130" rx="20" fill="#f8edf4" stroke="#b77b9e" stroke-width="3"/><text x="565" y="295" font-size="25" font-weight="700" fill="#75445f">대체키</text><text x="565" y="330" font-size="20" fill="#75445f">나머지 후보키</text>
+ <text x="460" y="415" font-size="21" fill="#356749">유일성 + 최소성</text><text x="460" y="480" font-size="21" fill="#405a87">유일성</text>
+ <rect x="890" y="175" width="230" height="230" rx="24" fill="#f4f1ff" stroke="#8c7db8" stroke-width="3"/><text x="1005" y="255" font-size="27" font-weight="700" fill="#594a88">외래키</text><text x="1005" y="300" font-size="21" fill="#594a88">다른 테이블의</text><text x="1005" y="332" font-size="21" fill="#594a88">키를 참조</text><path d="M890 370H750" stroke="#8c7db8" stroke-width="4"/><path d="M750 370l18-10v20z" fill="#8c7db8"/>
+ </g></svg>
