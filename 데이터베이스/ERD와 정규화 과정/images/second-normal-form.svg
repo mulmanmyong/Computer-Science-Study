@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="750" viewBox="0 0 1500 750">
+  <rect width="1500" height="750" fill="#fff"/>
+  <g font-family="'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle" fill="#28364d">
+    <text x="750" y="45" font-size="32" font-weight="700">&#xC81C;2 &#xC815;&#xADDC;&#xD615;: &#xBD80;&#xBD84; &#xD568;&#xC218; &#xC885;&#xC18D; &#xC81C;&#xAC70;</text>
+    <text x="370" y="95" font-size="25" font-weight="700">&#xBD84;&#xB9AC; &#xC804; &#xC218;&#xAC15; &#xD14C;&#xC774;&#xBE14;</text>
+    <g stroke="#65748b" stroke-width="2">
+      <rect x="50" y="120" width="640" height="260" fill="#fff"/>
+      <rect x="50" y="120" width="640" height="65" fill="#f5e7e7"/>
+      <path d="M50 185h640M50 250h640M50 315h640M180 120v260M310 120v260M440 120v260M565 120v260"/>
+    </g>
+    <g font-size="18" font-weight="700">
+      <text x="115" y="160">&#xD559;&#xC0DD; &#xBC88;&#xD638;</text>
+      <text x="245" y="160">&#xAC15;&#xC758; &#xBC88;&#xD638;</text>
+      <text x="375" y="160">&#xD559;&#xC0DD; &#xC774;&#xB984;</text>
+      <text x="502" y="160">&#xAC15;&#xC758;&#xBA85;</text>
+      <text x="627" y="160">&#xC131;&#xC801;</text>
+    </g>
+    <g font-size="19">
+      <text x="115" y="225">1</text>
+      <text x="245" y="225">C01</text>
+      <text x="375" y="225">&#xD64D;&#xAE38;&#xB3D9;</text>
+      <text x="502" y="225">&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;</text>
+      <text x="627" y="225">90</text>
+      <text x="115" y="290">1</text>
+      <text x="245" y="290">C02</text>
+      <text x="375" y="290">&#xD64D;&#xAE38;&#xB3D9;</text>
+      <text x="502" y="290">&#xC6B4;&#xC601;&#xCCB4;&#xC81C;</text>
+      <text x="627" y="290">80</text>
+      <text x="115" y="355">2</text>
+      <text x="245" y="355">C01</text>
+      <text x="375" y="355">&#xAE40;&#xCCA0;&#xC218;</text>
+      <text x="502" y="355">&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;</text>
+      <text x="627" y="355">95</text>
+    </g>
+    <text x="370" y="425" font-size="20" fill="#a54f4f">&#xD559;&#xC0DD; &#xC774;&#xB984;&#xC740; &#xD559;&#xC0DD; &#xBC88;&#xD638;&#xC5D0;, &#xAC15;&#xC758;&#xBA85;&#xC740; &#xAC15;&#xC758; &#xBC88;&#xD638;&#xC5D0;&#xB9CC; &#xC885;&#xC18D;</text>
+    <path d="M720 270h70" stroke="#65748b" stroke-width="5"/>
+    <path d="M790 255l25 15-25 15z" fill="#65748b"/>
+    <text x="1100" y="95" font-size="25" font-weight="700">&#xBD80;&#xBD84; &#xC885;&#xC18D;&#xC744; &#xBD84;&#xB9AC;&#xD55C; &#xD14C;&#xC774;&#xBE14;</text>
+    <g stroke="#65748b" stroke-width="2">
+      <rect x="850" y="120" width="500" height="150" fill="#fff"/>
+      <rect x="850" y="120" width="500" height="55" fill="#edf3ff"/>
+      <path d="M850 175h500M850 222h500M1100 120v150"/>
+      <rect x="850" y="305" width="500" height="150" fill="#fff"/>
+      <rect x="850" y="305" width="500" height="55" fill="#eaf8f0"/>
+      <path d="M850 360h500M850 407h500M1100 305v150"/>
+      <rect x="850" y="490" width="500" height="150" fill="#fff"/>
+      <rect x="850" y="490" width="500" height="55" fill="#fff3dc"/>
+      <path d="M850 545h500M850 576h500M850 607h500M1015 490v150M1180 490v150"/>
+    </g>
+    <g font-size="19" font-weight="700">
+      <text x="975" y="155">&#xD559;&#xC0DD; &#xBC88;&#xD638;</text>
+      <text x="1225" y="155">&#xD559;&#xC0DD; &#xC774;&#xB984;</text>
+      <text x="975" y="340">&#xAC15;&#xC758; &#xBC88;&#xD638;</text>
+      <text x="1225" y="340">&#xAC15;&#xC758;&#xBA85;</text>
+      <text x="932" y="525">&#xD559;&#xC0DD; &#xBC88;&#xD638;</text>
+      <text x="1097" y="525">&#xAC15;&#xC758; &#xBC88;&#xD638;</text>
+      <text x="1265" y="525">&#xC131;&#xC801;</text>
+    </g>
+    <g font-size="17">
+      <text x="975" y="207">1</text>
+      <text x="1225" y="207">홍길동</text>
+      <text x="975" y="254">2</text>
+      <text x="1225" y="254">김철수</text>
+      <text x="975" y="392">C01</text>
+      <text x="1225" y="392">데이터베이스</text>
+      <text x="975" y="439">C02</text>
+      <text x="1225" y="439">운영체제</text>
+      <text x="932" y="568">1</text>
+      <text x="1097" y="568">C01</text>
+      <text x="1265" y="568">90</text>
+      <text x="932" y="599">1</text>
+      <text x="1097" y="599">C02</text>
+      <text x="1265" y="599">80</text>
+      <text x="932" y="630">2</text>
+      <text x="1097" y="630">C01</text>
+      <text x="1265" y="630">95</text>
+    </g>
+    <text x="1100" y="690" font-size="22" fill="#52617a">&#xD559;&#xC0DD; &#xB7; &#xAC15;&#xC758; &#xB7; &#xC218;&#xAC15; &#xD14C;&#xC774;&#xBE14;&#xB85C; &#xBD84;&#xB9AC;</text>
+  </g>
+</svg>

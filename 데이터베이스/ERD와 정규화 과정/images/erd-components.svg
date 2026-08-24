@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <rect width="1400" height="520" fill="#ffffff"/>
+  <g font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" text-anchor="middle" fill="#28364d">
+    <text x="700" y="50" font-size="32" font-weight="700">ERD의 기본 구성 요소</text>
+    <rect x="70" y="115" width="360" height="260" rx="18" fill="#edf3ff" stroke="#7891bc" stroke-width="3"/>
+    <rect x="70" y="115" width="360" height="65" rx="18" fill="#dfeaff"/>
+    <text x="250" y="157" font-size="27" font-weight="700">회원</text>
+    <g font-size="22" text-anchor="start">
+      <text x="105" y="225" font-weight="700">PK</text><text x="170" y="225">member_id</text>
+      <text x="170" y="275">name</text><text x="170" y="325">email</text>
+    </g>
+    <rect x="720" y="115" width="360" height="260" rx="18" fill="#eaf8f0" stroke="#6ca284" stroke-width="3"/>
+    <rect x="720" y="115" width="360" height="65" rx="18" fill="#d9f2e4"/>
+    <text x="900" y="157" font-size="27" font-weight="700">주문</text>
+    <g font-size="22" text-anchor="start">
+      <text x="755" y="225" font-weight="700">PK</text><text x="820" y="225">order_id</text>
+      <text x="755" y="275" font-weight="700">FK</text><text x="820" y="275">member_id</text>
+      <text x="820" y="325">ordered_at</text>
+    </g>
+    <line x1="430" y1="250" x2="720" y2="250" stroke="#52617a" stroke-width="6"/>
+    <line x1="455" y1="228" x2="455" y2="272" stroke="#52617a" stroke-width="6"/>
+    <line x1="478" y1="228" x2="478" y2="272" stroke="#52617a" stroke-width="6"/>
+    <circle cx="625" cy="250" r="13" fill="#52617a"/><circle cx="625" cy="250" r="7" fill="#ffffff"/>
+    <line x1="655" y1="250" x2="698" y2="227" stroke="#52617a" stroke-width="6"/>
+    <line x1="655" y1="250" x2="698" y2="250" stroke="#52617a" stroke-width="6"/>
+    <line x1="655" y1="250" x2="698" y2="273" stroke="#52617a" stroke-width="6"/>
+    <text x="465" y="305" font-size="19" fill="#52617a">정확히 1</text>
+    <text x="660" y="305" font-size="19" fill="#52617a">0개 이상</text>
+    <text x="575" y="205" font-size="21" fill="#52617a">주문한다</text>
+    <rect x="1150" y="115" width="190" height="260" rx="18" fill="#fff3dc" stroke="#d3a24d" stroke-width="3"/>
+    <g font-size="22">
+      <text x="1245" y="160" font-weight="700" fill="#8a601b">표현 대상</text>
+      <text x="1245" y="210">엔터티</text><text x="1245" y="255">속성</text>
+      <text x="1245" y="300">관계</text><text x="1245" y="345">대응수</text>
+    </g>
+    <text x="700" y="450" font-size="23" fill="#52617a">회원 한 명은 주문을 0개 이상 할 수 있고, 주문 하나는 정확히 회원 한 명에 속한다.</text>
+  </g>
+</svg>

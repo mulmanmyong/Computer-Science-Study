@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+  <rect width="1500" height="800" fill="#ffffff"/>
+  <g font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" text-anchor="middle" fill="#28364d">
+    <text x="750" y="48" font-size="32" font-weight="700">게시판 서비스 ERD</text>
+    <rect x="60" y="220" width="330" height="300" rx="18" fill="#edf3ff" stroke="#7891bc" stroke-width="3"/>
+    <text x="225" y="265" font-size="27" font-weight="700">USER</text>
+    <g font-size="21" text-anchor="start">
+      <text x="100" y="320" font-weight="700">PK</text><text x="160" y="320">user_id</text>
+      <text x="160" y="365">name</text><text x="160" y="410">email</text>
+    </g>
+    <rect x="650" y="70" width="370" height="270" rx="18" fill="#eaf8f0" stroke="#6ca284" stroke-width="3"/>
+    <text x="835" y="115" font-size="27" font-weight="700">BOARD(게시글)</text>
+    <g font-size="21" text-anchor="start">
+      <text x="690" y="165" font-weight="700">PK</text><text x="750" y="165">board_id</text>
+      <text x="690" y="210" font-weight="700">FK</text><text x="750" y="210">user_id</text>
+      <text x="750" y="255">title</text><text x="750" y="300">content</text>
+    </g>
+    <rect x="1040" y="400" width="370" height="290" rx="18" fill="#fff3dc" stroke="#d3a24d" stroke-width="3"/>
+    <text x="1225" y="445" font-size="27" font-weight="700">REPLY</text>
+    <g font-size="21" text-anchor="start">
+      <text x="1080" y="495" font-weight="700">PK</text><text x="1140" y="495">reply_id</text>
+      <text x="1080" y="540" font-weight="700">FK</text><text x="1140" y="540">user_id</text>
+      <text x="1080" y="585" font-weight="700">FK</text><text x="1140" y="585">board_id</text>
+      <text x="1140" y="630">content</text>
+    </g>
+    <!-- USER와 BOARD 관계 -->
+    <line x1="390" y1="270" x2="520" y2="270" stroke="#52617a" stroke-width="6"/>
+    <line x1="520" y1="270" x2="520" y2="205" stroke="#52617a" stroke-width="6"/>
+    <line x1="520" y1="205" x2="650" y2="205" stroke="#52617a" stroke-width="6"/>
+    <line x1="415" y1="248" x2="415" y2="292" stroke="#52617a" stroke-width="6"/>
+    <line x1="438" y1="248" x2="438" y2="292" stroke="#52617a" stroke-width="6"/>
+    <circle cx="585" cy="205" r="12" fill="#52617a"/><circle cx="585" cy="205" r="6" fill="#ffffff"/>
+    <line x1="610" y1="205" x2="642" y2="187" stroke="#52617a" stroke-width="6"/>
+    <line x1="610" y1="205" x2="642" y2="205" stroke="#52617a" stroke-width="6"/>
+    <line x1="610" y1="205" x2="642" y2="223" stroke="#52617a" stroke-width="6"/>
+    <text x="500" y="185" font-size="20" fill="#52617a">게시글 작성</text>
+    <!-- USER와 REPLY 관계 -->
+    <line x1="390" y1="470" x2="800" y2="470" stroke="#52617a" stroke-width="6"/>
+    <line x1="800" y1="470" x2="800" y2="580" stroke="#52617a" stroke-width="6"/>
+    <line x1="800" y1="580" x2="1040" y2="580" stroke="#52617a" stroke-width="6"/>
+    <line x1="415" y1="448" x2="415" y2="492" stroke="#52617a" stroke-width="6"/>
+    <line x1="438" y1="448" x2="438" y2="492" stroke="#52617a" stroke-width="6"/>
+    <circle cx="970" cy="580" r="12" fill="#52617a"/><circle cx="970" cy="580" r="6" fill="#ffffff"/>
+    <line x1="995" y1="580" x2="1027" y2="562" stroke="#52617a" stroke-width="6"/>
+    <line x1="995" y1="580" x2="1027" y2="580" stroke="#52617a" stroke-width="6"/>
+    <line x1="995" y1="580" x2="1027" y2="598" stroke="#52617a" stroke-width="6"/>
+    <text x="670" y="555" font-size="20" fill="#52617a">댓글 작성</text>
+    <!-- BOARD와 REPLY 관계 -->
+    <line x1="1020" y1="260" x2="1120" y2="260" stroke="#52617a" stroke-width="6"/>
+    <line x1="1120" y1="260" x2="1120" y2="400" stroke="#52617a" stroke-width="6"/>
+    <line x1="1040" y1="238" x2="1040" y2="282" stroke="#52617a" stroke-width="6"/>
+    <line x1="1063" y1="238" x2="1063" y2="282" stroke="#52617a" stroke-width="6"/>
+    <circle cx="1120" cy="345" r="12" fill="#52617a"/><circle cx="1120" cy="345" r="6" fill="#ffffff"/>
+    <line x1="1120" y1="370" x2="1102" y2="395" stroke="#52617a" stroke-width="6"/>
+    <line x1="1120" y1="370" x2="1120" y2="395" stroke="#52617a" stroke-width="6"/>
+    <line x1="1120" y1="370" x2="1138" y2="395" stroke="#52617a" stroke-width="6"/>
+    <text x="1190" y="325" font-size="20" fill="#52617a">댓글 포함</text>
+    <rect x="325" y="730" width="850" height="48" rx="14" fill="#f4f6f9"/>
+    <text x="750" y="761" font-size="21" fill="#52617a">||는 정확히 1개, ○와 까마귀발의 조합은 0개 이상을 의미한다.</text>
+  </g>
+</svg>

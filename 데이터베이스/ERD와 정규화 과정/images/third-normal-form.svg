@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="660" viewBox="0 0 1500 660">
+  <rect width="1500" height="660" fill="#fff"/>
+  <g font-family="'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle" fill="#28364d">
+    <text x="750" y="45" font-size="32" font-weight="700">&#xC81C;3 &#xC815;&#xADDC;&#xD615;: &#xC774;&#xD589; &#xD568;&#xC218; &#xC885;&#xC18D; &#xC81C;&#xAC70;</text>
+    <text x="360" y="95" font-size="25" font-weight="700">&#xBD84;&#xB9AC; &#xC804; &#xAC15;&#xC758; &#xD14C;&#xC774;&#xBE14;</text>
+    <g stroke="#65748b" stroke-width="2">
+      <rect x="70" y="125" width="580" height="260" fill="#fff"/>
+      <rect x="70" y="125" width="580" height="65" fill="#f5e7e7"/>
+      <path d="M70 190h580M70 255h580M70 320h580M215 125v260M360 125v260M505 125v260"/>
+    </g>
+    <g font-size="19" font-weight="700">
+      <text x="142" y="165">&#xAC15;&#xC758; &#xBC88;&#xD638;</text>
+      <text x="287" y="165">&#xAC15;&#xC758;&#xBA85;</text>
+      <text x="432" y="165">&#xAD50;&#xC218; &#xBC88;&#xD638;</text>
+      <text x="577" y="165">&#xAD50;&#xC218;&#xBA85;</text>
+    </g>
+    <g font-size="19">
+      <text x="142" y="230">C01</text>
+      <text x="287" y="230">&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;</text>
+      <text x="432" y="230">P01</text>
+      <text x="577" y="230">&#xBC15;&#xAD50;&#xC218;</text>
+      <text x="142" y="295">C02</text>
+      <text x="287" y="295">&#xC6B4;&#xC601;&#xCCB4;&#xC81C;</text>
+      <text x="432" y="295">P02</text>
+      <text x="577" y="295">&#xC774;&#xAD50;&#xC218;</text>
+      <text x="142" y="360">C03</text>
+      <text x="287" y="360">&#xC790;&#xB8CC;&#xAD6C;&#xC870;</text>
+      <text x="432" y="360">P01</text>
+      <text x="577" y="360">&#xBC15;&#xAD50;&#xC218;</text>
+    </g>
+    <text x="360" y="430" font-size="20" fill="#a54f4f">&#xAC15;&#xC758; &#xBC88;&#xD638; &#x2192; &#xAD50;&#xC218; &#xBC88;&#xD638; &#x2192; &#xAD50;&#xC218;&#xBA85;</text>
+    <path d="M680 270h80" stroke="#65748b" stroke-width="5"/>
+    <path d="M760 255l25 15-25 15z" fill="#65748b"/>
+    <text x="1120" y="95" font-size="25" font-weight="700">&#xC774;&#xD589; &#xC885;&#xC18D;&#xC744; &#xBD84;&#xB9AC;&#xD55C; &#xD14C;&#xC774;&#xBE14;</text>
+    <g stroke="#65748b" stroke-width="2">
+      <rect x="830" y="125" width="580" height="200" fill="#fff"/>
+      <rect x="830" y="125" width="580" height="60" fill="#eaf8f0"/>
+      <path d="M830 185h580M830 232h580M830 278h580M1023 125v200M1216 125v200"/>
+      <rect x="925" y="390" width="390" height="150" fill="#fff"/>
+      <rect x="925" y="390" width="390" height="60" fill="#fff3dc"/>
+      <path d="M925 450h390M925 495h390M1120 390v150"/>
+    </g>
+    <g font-size="19" font-weight="700">
+      <text x="926" y="163">&#xAC15;&#xC758; &#xBC88;&#xD638;</text>
+      <text x="1119" y="163">&#xAC15;&#xC758;&#xBA85;</text>
+      <text x="1313" y="163">&#xAD50;&#xC218; &#xBC88;&#xD638;</text>
+      <text x="1022" y="428">&#xAD50;&#xC218; &#xBC88;&#xD638;</text>
+      <text x="1217" y="428">&#xAD50;&#xC218;&#xBA85;</text>
+    </g>
+    <g font-size="18">
+      <text x="926" y="216">C01</text>
+      <text x="1119" y="216">&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;</text>
+      <text x="1313" y="216">P01</text>
+      <text x="926" y="263">C02</text>
+      <text x="1119" y="263">&#xC6B4;&#xC601;&#xCCB4;&#xC81C;</text>
+      <text x="1313" y="263">P02</text>
+      <text x="926" y="309">C03</text>
+      <text x="1119" y="309">자료구조</text>
+      <text x="1313" y="309">P01</text>
+      <text x="1022" y="482">P01</text>
+      <text x="1217" y="482">박교수</text>
+      <text x="1022" y="527">P02</text>
+      <text x="1217" y="527">이교수</text>
+    </g>
+    <text x="1120" y="600" font-size="22" fill="#52617a">&#xAD50;&#xC218; &#xC815;&#xBCF4;&#xB97C; &#xBCC4;&#xB3C4; &#xD14C;&#xC774;&#xBE14;&#xB85C; &#xBD84;&#xB9AC;&#xD558;&#xC5EC; &#xD55C; &#xACF3;&#xC5D0;&#xC11C; &#xAD00;&#xB9AC;</text>
+  </g>
+</svg>
