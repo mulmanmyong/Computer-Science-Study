@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="760" viewBox="0 0 1480 760" font-family="'Apple SD Gothic Neo', sans-serif">
+  <rect width="1480" height="760" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .table { font-size: 27px; font-weight: 700; }
+    .head { font-size: 23px; font-weight: 700; }
+    .cell { font-size: 21px; font-weight: 500; }
+    .note { font-size: 21px; font-weight: 700; }
+  </style>
+  <text x="740" y="62" text-anchor="middle" class="title">테이블에 적용되는 무결성 제약 조건</text>
+
+  <text x="370" y="125" text-anchor="middle" class="table">MEMBER</text>
+  <rect x="70" y="150" width="600" height="300" rx="14" fill="#ffffff" stroke="#60728f" stroke-width="3"/>
+  <rect x="70" y="150" width="600" height="72" rx="14" fill="#e8f0ff"/>
+  <line x1="70" y1="222" x2="670" y2="222" stroke="#60728f" stroke-width="3"/>
+  <line x1="70" y1="298" x2="670" y2="298" stroke="#9aa7bb" stroke-width="2"/>
+  <line x1="70" y1="374" x2="670" y2="374" stroke="#9aa7bb" stroke-width="2"/>
+  <line x1="275" y1="150" x2="275" y2="450" stroke="#60728f" stroke-width="3"/>
+  <text x="172" y="196" text-anchor="middle" class="head">필드</text>
+  <text x="472" y="196" text-anchor="middle" class="head">제약 조건</text>
+  <text x="172" y="270" text-anchor="middle" class="cell">member_id</text>
+  <text x="472" y="270" text-anchor="middle" class="cell">PRIMARY KEY</text>
+  <text x="172" y="346" text-anchor="middle" class="cell">email</text>
+  <text x="472" y="346" text-anchor="middle" class="cell">NOT NULL · UNIQUE</text>
+  <text x="172" y="422" text-anchor="middle" class="cell">status</text>
+  <text x="472" y="422" text-anchor="middle" class="cell">CHECK(허용된 상태)</text>
+
+  <text x="1110" y="125" text-anchor="middle" class="table">ORDERS</text>
+  <rect x="810" y="150" width="600" height="300" rx="14" fill="#ffffff" stroke="#60728f" stroke-width="3"/>
+  <rect x="810" y="150" width="600" height="72" rx="14" fill="#eef8f3"/>
+  <line x1="810" y1="222" x2="1410" y2="222" stroke="#60728f" stroke-width="3"/>
+  <line x1="810" y1="298" x2="1410" y2="298" stroke="#9aa7bb" stroke-width="2"/>
+  <line x1="810" y1="374" x2="1410" y2="374" stroke="#9aa7bb" stroke-width="2"/>
+  <line x1="1015" y1="150" x2="1015" y2="450" stroke="#60728f" stroke-width="3"/>
+  <text x="912" y="196" text-anchor="middle" class="head">필드</text>
+  <text x="1212" y="196" text-anchor="middle" class="head">제약 조건</text>
+  <text x="912" y="270" text-anchor="middle" class="cell">order_id</text>
+  <text x="1212" y="270" text-anchor="middle" class="cell">PRIMARY KEY</text>
+  <text x="912" y="346" text-anchor="middle" class="cell">member_id</text>
+  <text x="1212" y="346" text-anchor="middle" class="cell">FOREIGN KEY · NOT NULL</text>
+  <text x="912" y="422" text-anchor="middle" class="cell">amount</text>
+  <text x="1212" y="422" text-anchor="middle" class="cell">CHECK(amount ≥ 0)</text>
+
+  <line x1="670" y1="336" x2="810" y2="336" stroke="#d08c2f" stroke-width="5"/>
+  <polygon points="670,336 694,322 694,350" fill="#d08c2f"/>
+  <text x="740" y="310" text-anchor="middle" class="note" fill="#b16d18">참조</text>
+
+  <rect x="105" y="535" width="1270" height="145" rx="20" fill="#f7f9fc" stroke="#c9d2df" stroke-width="2"/>
+  <text x="740" y="581" text-anchor="middle" class="note">각 레코드 식별 · 참조 대상 존재 · 필수값 입력 · 값의 범위 검사</text>
+  <text x="740" y="625" text-anchor="middle" class="cell">여러 제약 조건이 함께 데이터의 정확성, 일관성, 유효성을 유지한다</text>
+</svg>

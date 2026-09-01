@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="720" viewBox="0 0 1480 720" font-family="'Apple SD Gothic Neo', sans-serif">
+  <rect width="1480" height="720" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .label { font-size: 26px; font-weight: 700; }
+    .body { font-size: 23px; font-weight: 500; }
+    .small { font-size: 20px; font-weight: 500; }
+  </style>
+  <text x="740" y="66" text-anchor="middle" class="title">계좌 이체 트랜잭션</text>
+
+  <rect x="70" y="145" width="230" height="120" rx="20" fill="#e8f0ff" stroke="#5b7fbd" stroke-width="3"/>
+  <text x="185" y="195" text-anchor="middle" class="label">트랜잭션 시작</text>
+  <text x="185" y="232" text-anchor="middle" class="small">BEGIN</text>
+
+  <line x1="300" y1="205" x2="375" y2="205" stroke="#5f6f89" stroke-width="5"/>
+  <polygon points="375,205 350,191 350,219" fill="#5f6f89"/>
+
+  <rect x="375" y="145" width="275" height="120" rx="20" fill="#eef8f3" stroke="#62a081" stroke-width="3"/>
+  <text x="512" y="195" text-anchor="middle" class="label">출금 계좌</text>
+  <text x="512" y="232" text-anchor="middle" class="body">잔액 10,000원 감소</text>
+
+  <line x1="650" y1="205" x2="725" y2="205" stroke="#5f6f89" stroke-width="5"/>
+  <polygon points="725,205 700,191 700,219" fill="#5f6f89"/>
+
+  <rect x="725" y="145" width="275" height="120" rx="20" fill="#eef8f3" stroke="#62a081" stroke-width="3"/>
+  <text x="862" y="195" text-anchor="middle" class="label">입금 계좌</text>
+  <text x="862" y="232" text-anchor="middle" class="body">잔액 10,000원 증가</text>
+
+  <line x1="1000" y1="205" x2="1080" y2="205" stroke="#5f6f89" stroke-width="5"/>
+  <polygon points="1080,205 1055,191 1055,219" fill="#5f6f89"/>
+
+  <rect x="1080" y="145" width="330" height="120" rx="20" fill="#e8f0ff" stroke="#5b7fbd" stroke-width="3"/>
+  <text x="1245" y="195" text-anchor="middle" class="label">모든 연산 성공</text>
+  <text x="1245" y="232" text-anchor="middle" class="body">변경 사항 확정</text>
+
+  <line x1="1245" y1="265" x2="1245" y2="335" stroke="#4b8b6b" stroke-width="5"/>
+  <polygon points="1245,350 1231,325 1259,325" fill="#4b8b6b"/>
+  <rect x="1080" y="350" width="330" height="110" rx="20" fill="#ddf4e8" stroke="#4b8b6b" stroke-width="3"/>
+  <text x="1245" y="397" text-anchor="middle" class="label">커밋</text>
+  <text x="1245" y="433" text-anchor="middle" class="small">COMMIT</text>
+
+  <line x1="862" y1="265" x2="862" y2="375" stroke="#c15d67" stroke-width="5"/>
+  <polygon points="862,390 848,365 876,365" fill="#c15d67"/>
+  <text x="890" y="326" class="body" fill="#a94450">중간 연산 실패</text>
+  <rect x="665" y="390" width="394" height="110" rx="20" fill="#fff0f1" stroke="#c15d67" stroke-width="3"/>
+  <text x="862" y="437" text-anchor="middle" class="label">롤백</text>
+  <text x="862" y="473" text-anchor="middle" class="small">ROLLBACK</text>
+
+  <line x1="665" y1="445" x2="540" y2="445" stroke="#c15d67" stroke-width="5"/>
+  <line x1="540" y1="445" x2="540" y2="540" stroke="#c15d67" stroke-width="5"/>
+  <polygon points="540,555 526,530 554,530" fill="#c15d67"/>
+  <rect x="300" y="555" width="480" height="100" rx="20" fill="#fff7e7" stroke="#d49a42" stroke-width="3"/>
+  <text x="540" y="598" text-anchor="middle" class="label">트랜잭션 시작 전 상태로 복구</text>
+  <text x="540" y="632" text-anchor="middle" class="small">출금과 입금 모두 반영하지 않음</text>
+</svg>

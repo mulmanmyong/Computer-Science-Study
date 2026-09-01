@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="610" viewBox="0 0 1480 610" font-family="'Apple SD Gothic Neo', sans-serif">
+  <rect width="1480" height="610" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .letter { font-size: 52px; font-weight: 800; }
+    .name { font-size: 29px; font-weight: 700; }
+    .body { font-size: 22px; font-weight: 500; }
+    .white { fill: #ffffff; }
+  </style>
+  <text x="740" y="65" text-anchor="middle" class="title">트랜잭션의 ACID</text>
+
+  <rect x="55" y="125" width="325" height="390" rx="24" fill="#eaf1ff" stroke="#6383bd" stroke-width="3"/>
+  <circle cx="217" cy="205" r="48" fill="#6383bd"/>
+  <text x="217" y="223" text-anchor="middle" class="letter white">A</text>
+  <text x="217" y="292" text-anchor="middle" class="name">원자성</text>
+  <text x="217" y="328" text-anchor="middle" class="body">Atomicity</text>
+  <text x="217" y="393" text-anchor="middle" class="body">모두 반영하거나</text>
+  <text x="217" y="428" text-anchor="middle" class="body">모두 취소한다</text>
+
+  <rect x="405" y="125" width="325" height="390" rx="24" fill="#edf8f2" stroke="#62a081" stroke-width="3"/>
+  <circle cx="567" cy="205" r="48" fill="#62a081"/>
+  <text x="567" y="223" text-anchor="middle" class="letter white">C</text>
+  <text x="567" y="292" text-anchor="middle" class="name">일관성</text>
+  <text x="567" y="328" text-anchor="middle" class="body">Consistency</text>
+  <text x="567" y="393" text-anchor="middle" class="body">전후 상태가 정해진</text>
+  <text x="567" y="428" text-anchor="middle" class="body">규칙을 만족한다</text>
+
+  <rect x="755" y="125" width="325" height="390" rx="24" fill="#fff6e4" stroke="#d59a3c" stroke-width="3"/>
+  <circle cx="917" cy="205" r="48" fill="#d59a3c"/>
+  <text x="917" y="223" text-anchor="middle" class="letter white">I</text>
+  <text x="917" y="292" text-anchor="middle" class="name">격리성</text>
+  <text x="917" y="328" text-anchor="middle" class="body">Isolation</text>
+  <text x="917" y="393" text-anchor="middle" class="body">동시 실행의 중간 상태가</text>
+  <text x="917" y="428" text-anchor="middle" class="body">함부로 노출되지 않는다</text>
+
+  <rect x="1105" y="125" width="325" height="390" rx="24" fill="#fff0f3" stroke="#c96b7c" stroke-width="3"/>
+  <circle cx="1267" cy="205" r="48" fill="#c96b7c"/>
+  <text x="1267" y="223" text-anchor="middle" class="letter white">D</text>
+  <text x="1267" y="292" text-anchor="middle" class="name">지속성</text>
+  <text x="1267" y="328" text-anchor="middle" class="body">Durability</text>
+  <text x="1267" y="393" text-anchor="middle" class="body">커밋한 결과는</text>
+  <text x="1267" y="428" text-anchor="middle" class="body">장애 이후에도 보존된다</text>
+</svg>
