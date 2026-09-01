@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="760" viewBox="0 0 1480 760" font-family="'Apple SD Gothic Neo', sans-serif">
+  <rect width="1480" height="760" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 40px; font-weight: 700; }
+    .section { font-size: 28px; font-weight: 700; }
+    .head { font-size: 21px; font-weight: 700; }
+    .cell { font-size: 20px; font-weight: 500; }
+    .code { font-size: 20px; font-weight: 500; }
+    .note { font-size: 22px; font-weight: 700; }
+  </style>
+  <text x="740" y="58" text-anchor="middle" class="title">같은 회원과 주소 데이터를 표현하는 방식</text>
+
+  <text x="370" y="118" text-anchor="middle" class="section">관계형 데이터베이스</text>
+  <text x="370" y="151" text-anchor="middle" class="cell">관계에 따라 두 테이블로 분리</text>
+
+  <rect x="45" y="190" width="650" height="155" rx="12" fill="#ffffff" stroke="#627491" stroke-width="3"/>
+  <rect x="45" y="190" width="650" height="58" rx="12" fill="#e8f0ff"/>
+  <line x1="45" y1="248" x2="695" y2="248" stroke="#627491" stroke-width="3"/>
+  <line x1="230" y1="190" x2="230" y2="345" stroke="#627491" stroke-width="2"/>
+  <line x1="440" y1="190" x2="440" y2="345" stroke="#627491" stroke-width="2"/>
+  <text x="137" y="226" text-anchor="middle" class="head">member_id</text>
+  <text x="335" y="226" text-anchor="middle" class="head">name</text>
+  <text x="567" y="226" text-anchor="middle" class="head">email</text>
+  <text x="137" y="303" text-anchor="middle" class="cell">1</text>
+  <text x="335" y="303" text-anchor="middle" class="cell">홍길동</text>
+  <text x="567" y="303" text-anchor="middle" class="cell">hong@example.com</text>
+
+  <rect x="45" y="395" width="650" height="225" rx="12" fill="#ffffff" stroke="#627491" stroke-width="3"/>
+  <rect x="45" y="395" width="650" height="58" rx="12" fill="#eef8f3"/>
+  <line x1="45" y1="453" x2="695" y2="453" stroke="#627491" stroke-width="3"/>
+  <line x1="45" y1="536" x2="695" y2="536" stroke="#9aa7bb" stroke-width="2"/>
+  <line x1="200" y1="395" x2="200" y2="620" stroke="#627491" stroke-width="2"/>
+  <line x1="370" y1="395" x2="370" y2="620" stroke="#627491" stroke-width="2"/>
+  <text x="122" y="431" text-anchor="middle" class="head">address_id</text>
+  <text x="285" y="431" text-anchor="middle" class="head">member_id</text>
+  <text x="532" y="431" text-anchor="middle" class="head">address</text>
+  <text x="122" y="505" text-anchor="middle" class="cell">101</text>
+  <text x="285" y="505" text-anchor="middle" class="cell">1</text>
+  <text x="532" y="505" text-anchor="middle" class="cell">서울 종로구</text>
+  <text x="122" y="588" text-anchor="middle" class="cell">102</text>
+  <text x="285" y="588" text-anchor="middle" class="cell">1</text>
+  <text x="532" y="588" text-anchor="middle" class="cell">부산 해운대구</text>
+
+  <line x1="740" y1="150" x2="740" y2="665" stroke="#d3d9e2" stroke-width="3"/>
+
+  <text x="1110" y="118" text-anchor="middle" class="section">도큐먼트 데이터베이스</text>
+  <text x="1110" y="151" text-anchor="middle" class="cell">관련 데이터를 하나의 도큐먼트에 포함</text>
+  <rect x="805" y="190" width="610" height="430" rx="20" fill="#f7f9fc" stroke="#627491" stroke-width="3"/>
+  <text x="850" y="238" class="code">{</text>
+  <text x="885" y="278" class="code">_id: 1,</text>
+  <text x="885" y="318" class="code">name: "홍길동",</text>
+  <text x="885" y="358" class="code">email: "hong@example.com",</text>
+  <text x="885" y="398" class="code">addresses: [</text>
+  <text x="925" y="438" class="code">{ city: "서울", detail: "종로구" },</text>
+  <text x="925" y="478" class="code">{ city: "부산", detail: "해운대구" }</text>
+  <text x="885" y="518" class="code">]</text>
+  <text x="850" y="558" class="code">}</text>
+
+  <text x="370" y="688" text-anchor="middle" class="note">키와 조인으로 관계 표현</text>
+  <text x="1110" y="688" text-anchor="middle" class="note">중첩 구조로 관계 표현</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="690" viewBox="0 0 1480 690" font-family="'Apple SD Gothic Neo', sans-serif">
+  <rect width="1480" height="690" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .name { font-size: 28px; font-weight: 700; }
+    .body { font-size: 21px; font-weight: 500; }
+    .mono { font-size: 19px; font-weight: 500; }
+  </style>
+  <text x="740" y="62" text-anchor="middle" class="title">NoSQL의 대표적인 데이터 모델</text>
+
+  <rect x="55" y="120" width="325" height="480" rx="24" fill="#eaf1ff" stroke="#6383bd" stroke-width="3"/>
+  <text x="217" y="170" text-anchor="middle" class="name">키-값</text>
+  <rect x="95" y="220" width="245" height="68" rx="12" fill="#ffffff" stroke="#6383bd" stroke-width="2"/>
+  <line x1="178" y1="220" x2="178" y2="288" stroke="#6383bd" stroke-width="2"/>
+  <text x="136" y="263" text-anchor="middle" class="mono">user:1</text>
+  <text x="258" y="263" text-anchor="middle" class="mono">홍길동</text>
+  <text x="217" y="356" text-anchor="middle" class="body">키로 값을 빠르게 조회</text>
+  <text x="217" y="395" text-anchor="middle" class="body">캐시 · 세션 · 카운터</text>
+  <text x="217" y="542" text-anchor="middle" class="body">Redis</text>
+
+  <rect x="405" y="120" width="325" height="480" rx="24" fill="#edf8f2" stroke="#62a081" stroke-width="3"/>
+  <text x="567" y="170" text-anchor="middle" class="name">도큐먼트</text>
+  <rect x="462" y="210" width="210" height="165" rx="12" fill="#ffffff" stroke="#62a081" stroke-width="2"/>
+  <text x="487" y="250" class="mono">{</text>
+  <text x="510" y="286" class="mono">name: "홍길동",</text>
+  <text x="510" y="322" class="mono">age: 30</text>
+  <text x="487" y="358" class="mono">}</text>
+  <text x="567" y="432" text-anchor="middle" class="body">중첩된 필드와 배열</text>
+  <text x="567" y="471" text-anchor="middle" class="body">콘텐츠 · 상품 정보</text>
+  <text x="567" y="542" text-anchor="middle" class="body">MongoDB</text>
+
+  <rect x="755" y="120" width="325" height="480" rx="24" fill="#fff6e4" stroke="#d59a3c" stroke-width="3"/>
+  <text x="917" y="170" text-anchor="middle" class="name">와이드 컬럼</text>
+  <rect x="810" y="220" width="215" height="145" fill="#ffffff" stroke="#d59a3c" stroke-width="2"/>
+  <line x1="810" y1="268" x2="1025" y2="268" stroke="#d59a3c" stroke-width="2"/>
+  <line x1="810" y1="316" x2="1025" y2="316" stroke="#d59a3c" stroke-width="2"/>
+  <line x1="875" y1="220" x2="875" y2="365" stroke="#d59a3c" stroke-width="2"/>
+  <line x1="950" y1="220" x2="950" y2="365" stroke="#d59a3c" stroke-width="2"/>
+  <text x="917" y="432" text-anchor="middle" class="body">행마다 유연한 열 구성</text>
+  <text x="917" y="471" text-anchor="middle" class="body">대규모 로그 · 시계열</text>
+  <text x="917" y="542" text-anchor="middle" class="body">Cassandra</text>
+
+  <rect x="1105" y="120" width="325" height="480" rx="24" fill="#fff0f3" stroke="#c96b7c" stroke-width="3"/>
+  <text x="1267" y="170" text-anchor="middle" class="name">그래프</text>
+  <line x1="1195" y1="265" x2="1270" y2="225" stroke="#c96b7c" stroke-width="5"/>
+  <line x1="1270" y1="225" x2="1340" y2="290" stroke="#c96b7c" stroke-width="5"/>
+  <line x1="1195" y1="265" x2="1280" y2="345" stroke="#c96b7c" stroke-width="5"/>
+  <line x1="1280" y1="345" x2="1340" y2="290" stroke="#c96b7c" stroke-width="5"/>
+  <circle cx="1195" cy="265" r="28" fill="#ffffff" stroke="#c96b7c" stroke-width="4"/>
+  <circle cx="1270" cy="225" r="28" fill="#ffffff" stroke="#c96b7c" stroke-width="4"/>
+  <circle cx="1340" cy="290" r="28" fill="#ffffff" stroke="#c96b7c" stroke-width="4"/>
+  <circle cx="1280" cy="345" r="28" fill="#ffffff" stroke="#c96b7c" stroke-width="4"/>
+  <text x="1267" y="432" text-anchor="middle" class="body">노드와 간선으로 관계 저장</text>
+  <text x="1267" y="471" text-anchor="middle" class="body">추천 · 관계 · 경로 탐색</text>
+  <text x="1267" y="542" text-anchor="middle" class="body">Neo4j</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="760" viewBox="0 0 1480 760" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1480" height="760" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .section { font-size: 30px; font-weight: 700; }
+    .product { font-size: 22px; font-weight: 700; }
+    .type { font-size: 21px; font-weight: 700; }
+    .note { font-size: 20px; font-weight: 500; }
+  </style>
+
+  <text x="740" y="62" text-anchor="middle" class="title">대표적인 데이터베이스 제품</text>
+
+  <rect x="50" y="110" width="650" height="555" rx="26" fill="#f4f7fc" stroke="#6980a4" stroke-width="3"/>
+  <text x="375" y="165" text-anchor="middle" class="section">관계형 데이터베이스</text>
+  <text x="375" y="200" text-anchor="middle" class="note">RDBMS · 행과 열로 구성된 테이블</text>
+
+  <rect x="95" y="245" width="260" height="92" rx="18" fill="#e7efff" stroke="#6684ba" stroke-width="2"/>
+  <text x="225" y="300" text-anchor="middle" class="product">PostgreSQL</text>
+  <rect x="395" y="245" width="260" height="92" rx="18" fill="#e7efff" stroke="#6684ba" stroke-width="2"/>
+  <text x="525" y="300" text-anchor="middle" class="product">MySQL</text>
+
+  <rect x="95" y="365" width="260" height="92" rx="18" fill="#e7efff" stroke="#6684ba" stroke-width="2"/>
+  <text x="225" y="420" text-anchor="middle" class="product">Oracle Database</text>
+  <rect x="395" y="365" width="260" height="92" rx="18" fill="#e7efff" stroke="#6684ba" stroke-width="2"/>
+  <text x="525" y="405" text-anchor="middle" class="product">Microsoft</text>
+  <text x="525" y="435" text-anchor="middle" class="product">SQL Server</text>
+
+  <rect x="95" y="485" width="260" height="92" rx="18" fill="#e7efff" stroke="#6684ba" stroke-width="2"/>
+  <text x="225" y="540" text-anchor="middle" class="product">MariaDB</text>
+  <rect x="395" y="485" width="260" height="92" rx="18" fill="#e7efff" stroke="#6684ba" stroke-width="2"/>
+  <text x="525" y="540" text-anchor="middle" class="product">SQLite</text>
+
+  <rect x="780" y="110" width="650" height="555" rx="26" fill="#f4faf7" stroke="#629276" stroke-width="3"/>
+  <text x="1105" y="165" text-anchor="middle" class="section">NoSQL 데이터베이스</text>
+  <text x="1105" y="200" text-anchor="middle" class="note">데이터 모델에 따라 여러 유형으로 구분</text>
+
+  <rect x="825" y="235" width="560" height="82" rx="18" fill="#e7f6ed" stroke="#68a083" stroke-width="2"/>
+  <text x="965" y="270" text-anchor="middle" class="type">도큐먼트</text>
+  <text x="1240" y="270" text-anchor="middle" class="product">MongoDB · Couchbase</text>
+  <text x="1105" y="300" text-anchor="middle" class="note">JSON과 비슷한 도큐먼트</text>
+
+  <rect x="825" y="337" width="560" height="82" rx="18" fill="#fff4df" stroke="#d09a42" stroke-width="2"/>
+  <text x="965" y="372" text-anchor="middle" class="type">키-값</text>
+  <text x="1240" y="372" text-anchor="middle" class="product">Redis · DynamoDB</text>
+  <text x="1105" y="402" text-anchor="middle" class="note">키를 이용한 빠른 값 조회</text>
+
+  <rect x="825" y="439" width="560" height="82" rx="18" fill="#fff0f3" stroke="#c97584" stroke-width="2"/>
+  <text x="965" y="474" text-anchor="middle" class="type">와이드 컬럼</text>
+  <text x="1240" y="474" text-anchor="middle" class="product">Cassandra · HBase</text>
+  <text x="1105" y="504" text-anchor="middle" class="note">컬럼 패밀리 기반의 분산 저장</text>
+
+  <rect x="825" y="541" width="560" height="82" rx="18" fill="#eeeaff" stroke="#8172bc" stroke-width="2"/>
+  <text x="965" y="576" text-anchor="middle" class="type">그래프</text>
+  <text x="1240" y="576" text-anchor="middle" class="product">Neo4j · Neptune</text>
+  <text x="1105" y="606" text-anchor="middle" class="note">노드와 간선으로 관계 저장</text>
+
+  <text x="740" y="715" text-anchor="middle" class="note">제품에 따라 둘 이상의 데이터 모델을 함께 지원할 수 있다</text>
+</svg>
