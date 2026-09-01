@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="800" viewBox="0 0 1480 800" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1480" height="800" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .step { font-size: 23px; font-weight: 700; }
+    .step-accent { font-size: 23px; font-weight: 700; fill: #b86f18; }
+    .node-title { font-size: 24px; font-weight: 700; }
+    .key { font-size: 28px; font-weight: 700; }
+    .body { font-size: 21px; font-weight: 500; }
+    .small { font-size: 19px; font-weight: 500; }
+  </style>
+
+  <text x="740" y="60" text-anchor="middle" class="title">B-트리에서 57 찾기</text>
+
+  <text x="740" y="108" text-anchor="middle" class="step">1. 루트 노드의 정렬된 키와 비교한다</text>
+  <rect x="555" y="135" width="370" height="125" rx="20" fill="#e8f0ff" stroke="#607fb6" stroke-width="3"/>
+  <text x="740" y="177" text-anchor="middle" class="node-title">루트 노드의 기준 키</text>
+  <line x1="740" y1="193" x2="740" y2="248" stroke="#607fb6" stroke-width="2"/>
+  <text x="650" y="229" text-anchor="middle" class="key">30</text>
+  <text x="830" y="229" text-anchor="middle" class="key">60</text>
+
+  <line x1="635" y1="260" x2="320" y2="395" stroke="#8997aa" stroke-width="4"/>
+  <line x1="740" y1="260" x2="740" y2="380" stroke="#c9842c" stroke-width="6"/>
+  <polygon points="740,400 723,369 757,369" fill="#c9842c"/>
+  <line x1="845" y1="260" x2="1160" y2="395" stroke="#8997aa" stroke-width="4"/>
+  <rect x="490" y="280" width="500" height="58" rx="14" fill="#ffffff"/>
+  <text x="740" y="317" text-anchor="middle" class="step-accent">30 &lt; 57 &lt; 60이므로 가운데 범위를 선택한다</text>
+
+  <rect x="85" y="395" width="470" height="150" rx="20" fill="#eef8f3" stroke="#65a082" stroke-width="3"/>
+  <text x="320" y="438" text-anchor="middle" class="node-title">왼쪽 리프 노드</text>
+  <text x="320" y="485" text-anchor="middle" class="key">10  ·  18  ·  25</text>
+  <text x="320" y="522" text-anchor="middle" class="small">30보다 작은 값</text>
+
+  <rect x="570" y="395" width="340" height="150" rx="20" fill="#fff2da" stroke="#c9842c" stroke-width="5"/>
+  <text x="740" y="438" text-anchor="middle" class="node-title">가운데 리프 노드</text>
+  <text x="740" y="485" text-anchor="middle" class="key">32  ·  41  ·  57</text>
+  <text x="740" y="522" text-anchor="middle" class="small">30보다 크고 60보다 작은 값</text>
+
+  <rect x="925" y="395" width="470" height="150" rx="20" fill="#eef8f3" stroke="#65a082" stroke-width="3"/>
+  <text x="1160" y="438" text-anchor="middle" class="node-title">오른쪽 리프 노드</text>
+  <text x="1160" y="485" text-anchor="middle" class="key">63  ·  72  ·  90</text>
+  <text x="1160" y="522" text-anchor="middle" class="small">60보다 큰 값</text>
+
+  <line x1="740" y1="545" x2="740" y2="625" stroke="#c9842c" stroke-width="6"/>
+  <rect x="485" y="568" width="510" height="55" rx="14" fill="#ffffff"/>
+  <text x="740" y="603" text-anchor="middle" class="step">2. 선택한 리프 노드에서 57을 찾는다</text>
+  <polygon points="740,645 723,614 757,614" fill="#c9842c"/>
+
+  <rect x="475" y="645" width="530" height="105" rx="20" fill="#fff7e8" stroke="#c9842c" stroke-width="3"/>
+  <text x="740" y="689" text-anchor="middle" class="node-title">57 발견</text>
+  <text x="740" y="726" text-anchor="middle" class="body">레코드 또는 기본키의 위치를 이용해 데이터를 읽는다</text>
+</svg>

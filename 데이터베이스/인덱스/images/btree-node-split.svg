@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="900" viewBox="0 0 1480 900" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1480" height="900" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .step { font-size: 24px; font-weight: 700; }
+    .label { font-size: 22px; font-weight: 600; }
+    .key { font-size: 30px; font-weight: 700; }
+    .accent { font-size: 23px; font-weight: 700; fill: #b86f18; }
+    .note { font-size: 20px; font-weight: 500; }
+  </style>
+
+  <text x="740" y="66" text-anchor="middle" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif" font-size="42" font-weight="700" fill="#25324a">B-트리 노드 분할 과정</text>
+
+  <text x="740" y="116" text-anchor="middle" class="step">1. 키를 최대 3개 저장하는 루트 노드가 가득 찬 상태</text>
+  <rect x="440" y="150" width="600" height="145" rx="20" fill="#fff0d8" stroke="#c9842c" stroke-width="4"/>
+  <line x1="640" y1="150" x2="640" y2="295" stroke="#c9842c" stroke-width="3"/>
+  <line x1="840" y1="150" x2="840" y2="295" stroke="#c9842c" stroke-width="3"/>
+  <text x="540" y="205" text-anchor="middle" class="label">키</text>
+  <text x="540" y="260" text-anchor="middle" class="key">10</text>
+  <text x="740" y="205" text-anchor="middle" class="label">가운데 키</text>
+  <text x="740" y="260" text-anchor="middle" class="key">20</text>
+  <text x="940" y="205" text-anchor="middle" class="label">키</text>
+  <text x="940" y="260" text-anchor="middle" class="key">30</text>
+
+  <text x="740" y="347" text-anchor="middle" class="accent">40을 삽입하려면 공간이 부족하므로 노드를 분할한다</text>
+  <line x1="740" y1="370" x2="740" y2="430" stroke="#c9842c" stroke-width="6"/>
+  <polygon points="740,452 722,418 758,418" fill="#c9842c"/>
+
+  <text x="740" y="500" text-anchor="middle" class="step">2. 가운데 키 20이 새로운 루트로 올라간다</text>
+  <rect x="615" y="530" width="250" height="110" rx="20" fill="#e8f0ff" stroke="#607fb6" stroke-width="4"/>
+  <text x="740" y="571" text-anchor="middle" class="label">새 루트 노드</text>
+  <text x="740" y="617" text-anchor="middle" class="key">20</text>
+
+  <line x1="690" y1="640" x2="405" y2="730" stroke="#71819a" stroke-width="5"/>
+  <line x1="790" y1="640" x2="1075" y2="730" stroke="#71819a" stroke-width="5"/>
+
+  <rect x="210" y="730" width="390" height="120" rx="20" fill="#eef8f3" stroke="#65a082" stroke-width="3"/>
+  <text x="405" y="776" text-anchor="middle" class="label">왼쪽 자식 노드</text>
+  <text x="405" y="824" text-anchor="middle" class="key">10</text>
+
+  <rect x="880" y="730" width="390" height="120" rx="20" fill="#eef8f3" stroke="#65a082" stroke-width="3"/>
+  <text x="1075" y="776" text-anchor="middle" class="label">오른쪽 자식 노드</text>
+  <text x="1075" y="824" text-anchor="middle" class="key">30  ·  40</text>
+
+  <text x="400" y="885" text-anchor="middle" class="note">20보다 작은 키</text>
+  <text x="1080" y="885" text-anchor="middle" class="note">20보다 큰 키와 새로 삽입한 40</text>
+</svg>

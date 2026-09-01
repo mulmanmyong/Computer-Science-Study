@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="760" viewBox="0 0 1480 760" font-family="'Apple SD Gothic Neo', sans-serif">
+  <rect width="1480" height="760" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .section { font-size: 28px; font-weight: 700; }
+    .body { font-size: 22px; font-weight: 500; }
+    .key { font-size: 20px; font-weight: 700; }
+  </style>
+  <text x="740" y="62" text-anchor="middle" class="title">InnoDB의 두 인덱스 구조</text>
+
+  <text x="380" y="122" text-anchor="middle" class="section">세컨더리 인덱스</text>
+  <text x="380" y="155" text-anchor="middle" class="body">email 검색 키 → 기본키</text>
+  <rect x="180" y="195" width="400" height="90" rx="16" fill="#e8f0ff" stroke="#6080b8" stroke-width="3"/>
+  <text x="380" y="250" text-anchor="middle" class="key">email 범위 분기</text>
+  <line x1="280" y1="285" x2="200" y2="370" stroke="#6080b8" stroke-width="4"/>
+  <line x1="480" y1="285" x2="560" y2="370" stroke="#6080b8" stroke-width="4"/>
+  <rect x="80" y="370" width="300" height="112" rx="16" fill="#eef4ff" stroke="#6080b8" stroke-width="3"/>
+  <text x="230" y="414" text-anchor="middle" class="key">kim@example.com</text>
+  <text x="230" y="454" text-anchor="middle" class="body">기본키 8</text>
+  <rect x="400" y="370" width="300" height="112" rx="16" fill="#fff4df" stroke="#ce8a31" stroke-width="4"/>
+  <text x="550" y="414" text-anchor="middle" class="key">park@example.com</text>
+  <text x="550" y="454" text-anchor="middle" class="body">기본키 57</text>
+
+  <line x1="700" y1="426" x2="805" y2="426" stroke="#ce8a31" stroke-width="5"/>
+  <polygon points="805,426 780,412 780,440" fill="#ce8a31"/>
+  <text x="752" y="398" text-anchor="middle" class="body">다시 탐색</text>
+
+  <text x="1100" y="122" text-anchor="middle" class="section">클러스터형 인덱스</text>
+  <text x="1100" y="155" text-anchor="middle" class="body">기본키 → 전체 레코드</text>
+  <rect x="900" y="195" width="400" height="90" rx="16" fill="#edf8f2" stroke="#62a081" stroke-width="3"/>
+  <text x="1100" y="250" text-anchor="middle" class="key">기본키 범위 분기</text>
+  <line x1="1000" y1="285" x2="920" y2="370" stroke="#62a081" stroke-width="4"/>
+  <line x1="1200" y1="285" x2="1280" y2="370" stroke="#62a081" stroke-width="4"/>
+  <rect x="800" y="370" width="300" height="160" rx="16" fill="#f1faf5" stroke="#62a081" stroke-width="3"/>
+  <text x="950" y="412" text-anchor="middle" class="key">기본키 1 ~ 50</text>
+  <text x="950" y="454" text-anchor="middle" class="body">행 데이터 저장</text>
+  <text x="950" y="492" text-anchor="middle" class="body">이름 · 이메일 · 상태</text>
+  <rect x="1120" y="370" width="300" height="160" rx="16" fill="#fff4df" stroke="#ce8a31" stroke-width="4"/>
+  <text x="1270" y="412" text-anchor="middle" class="key">기본키 51 ~ 100</text>
+  <text x="1270" y="454" text-anchor="middle" class="body">57 · 박민준</text>
+  <text x="1270" y="492" text-anchor="middle" class="body">park@example.com</text>
+
+  <rect x="230" y="610" width="1020" height="92" rx="18" fill="#f7f9fc" stroke="#c6cfdd" stroke-width="2"/>
+  <text x="740" y="651" text-anchor="middle" class="section">세컨더리 인덱스에 필요한 필드가 모두 있으면</text>
+  <text x="740" y="683" text-anchor="middle" class="body">클러스터형 인덱스를 다시 읽지 않는 커버링 인덱스가 될 수 있다</text>
+</svg>

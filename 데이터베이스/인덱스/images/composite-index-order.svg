@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="720" viewBox="0 0 1480 720" font-family="'Apple SD Gothic Neo', sans-serif">
+  <rect width="1480" height="720" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .section { font-size: 27px; font-weight: 700; }
+    .head { font-size: 21px; font-weight: 700; }
+    .cell { font-size: 20px; font-weight: 500; }
+    .note { font-size: 22px; font-weight: 700; }
+  </style>
+  <text x="740" y="62" text-anchor="middle" class="title">복합 인덱스: (member_id, created_at)</text>
+  <text x="740" y="105" text-anchor="middle" class="cell">회원 번호를 먼저 정렬하고, 같은 회원 안에서 생성 시간을 정렬한다</text>
+
+  <rect x="140" y="150" width="1200" height="330" rx="16" fill="#ffffff" stroke="#667893" stroke-width="3"/>
+  <rect x="140" y="150" width="1200" height="70" rx="16" fill="#e8f0ff"/>
+  <line x1="140" y1="220" x2="1340" y2="220" stroke="#667893" stroke-width="3"/>
+  <line x1="140" y1="285" x2="1340" y2="285" stroke="#9ca8ba" stroke-width="2"/>
+  <line x1="140" y1="350" x2="1340" y2="350" stroke="#9ca8ba" stroke-width="2"/>
+  <line x1="140" y1="415" x2="1340" y2="415" stroke="#9ca8ba" stroke-width="2"/>
+  <line x1="500" y1="150" x2="500" y2="480" stroke="#667893" stroke-width="3"/>
+  <line x1="965" y1="150" x2="965" y2="480" stroke="#667893" stroke-width="3"/>
+  <text x="320" y="194" text-anchor="middle" class="head">member_id</text>
+  <text x="732" y="194" text-anchor="middle" class="head">created_at DESC</text>
+  <text x="1152" y="194" text-anchor="middle" class="head">order_id</text>
+  <rect x="142" y="222" width="1196" height="126" fill="#eef8f3"/>
+  <text x="320" y="263" text-anchor="middle" class="cell">1</text>
+  <text x="732" y="263" text-anchor="middle" class="cell">2026-09-01 18:30</text>
+  <text x="1152" y="263" text-anchor="middle" class="cell">105</text>
+  <text x="320" y="328" text-anchor="middle" class="cell">1</text>
+  <text x="732" y="328" text-anchor="middle" class="cell">2026-08-29 10:10</text>
+  <text x="1152" y="328" text-anchor="middle" class="cell">98</text>
+  <text x="320" y="393" text-anchor="middle" class="cell">2</text>
+  <text x="732" y="393" text-anchor="middle" class="cell">2026-09-01 12:20</text>
+  <text x="1152" y="393" text-anchor="middle" class="cell">104</text>
+  <text x="320" y="458" text-anchor="middle" class="cell">2</text>
+  <text x="732" y="458" text-anchor="middle" class="cell">2026-08-25 09:00</text>
+  <text x="1152" y="458" text-anchor="middle" class="cell">91</text>
+
+  <rect x="140" y="545" width="545" height="110" rx="18" fill="#edf8f2" stroke="#62a081" stroke-width="3"/>
+  <text x="412" y="588" text-anchor="middle" class="section">member_id = 1</text>
+  <text x="412" y="625" text-anchor="middle" class="cell">연속된 범위를 바로 찾을 수 있다</text>
+
+  <rect x="795" y="545" width="545" height="110" rx="18" fill="#fff4df" stroke="#ce8a31" stroke-width="3"/>
+  <text x="1067" y="588" text-anchor="middle" class="section">created_at만 검색</text>
+  <text x="1067" y="625" text-anchor="middle" class="cell">선두 필드가 없어 범위를 좁히기 어렵다</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="720" viewBox="0 0 1480 720" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1480" height="720" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .subtitle { font-size: 23px; font-weight: 600; }
+    .cell-title { font-size: 22px; font-weight: 700; }
+    .cell-value { font-size: 30px; font-weight: 700; }
+    .range { font-size: 24px; font-weight: 700; }
+    .note { font-size: 20px; font-weight: 500; }
+  </style>
+
+  <text x="740" y="62" text-anchor="middle" class="title">키 2개가 자식 범위 3개를 나누는 구조</text>
+  <text x="740" y="106" text-anchor="middle" class="subtitle">노드 안에서는 키와 자식 포인터가 순서대로 배치된다</text>
+
+  <rect x="140" y="160" width="1200" height="170" rx="22" fill="#f7f9fc" stroke="#66758d" stroke-width="4"/>
+
+  <rect x="140" y="160" width="220" height="170" rx="22" fill="#eaf2ff"/>
+  <rect x="580" y="160" width="320" height="170" fill="#eaf2ff"/>
+  <rect x="1120" y="160" width="220" height="170" rx="22" fill="#eaf2ff"/>
+
+  <rect x="360" y="160" width="220" height="170" fill="#fff0d8"/>
+  <rect x="900" y="160" width="220" height="170" fill="#fff0d8"/>
+
+  <line x1="360" y1="160" x2="360" y2="330" stroke="#66758d" stroke-width="3"/>
+  <line x1="580" y1="160" x2="580" y2="330" stroke="#66758d" stroke-width="3"/>
+  <line x1="900" y1="160" x2="900" y2="330" stroke="#66758d" stroke-width="3"/>
+  <line x1="1120" y1="160" x2="1120" y2="330" stroke="#66758d" stroke-width="3"/>
+
+  <text x="250" y="218" text-anchor="middle" class="cell-title">자식 포인터</text>
+  <text x="250" y="276" text-anchor="middle" class="cell-value">P0</text>
+  <text x="470" y="218" text-anchor="middle" class="cell-title">기준 키</text>
+  <text x="470" y="276" text-anchor="middle" class="cell-value">30</text>
+  <text x="740" y="218" text-anchor="middle" class="cell-title">자식 포인터</text>
+  <text x="740" y="276" text-anchor="middle" class="cell-value">P1</text>
+  <text x="1010" y="218" text-anchor="middle" class="cell-title">기준 키</text>
+  <text x="1010" y="276" text-anchor="middle" class="cell-value">60</text>
+  <text x="1230" y="218" text-anchor="middle" class="cell-title">자식 포인터</text>
+  <text x="1230" y="276" text-anchor="middle" class="cell-value">P2</text>
+
+  <line x1="250" y1="330" x2="250" y2="430" stroke="#5d80bb" stroke-width="5"/>
+  <polygon points="250,450 234,420 266,420" fill="#5d80bb"/>
+  <line x1="740" y1="330" x2="740" y2="430" stroke="#5d80bb" stroke-width="5"/>
+  <polygon points="740,450 724,420 756,420" fill="#5d80bb"/>
+  <line x1="1230" y1="330" x2="1230" y2="430" stroke="#5d80bb" stroke-width="5"/>
+  <polygon points="1230,450 1214,420 1246,420" fill="#5d80bb"/>
+
+  <rect x="70" y="450" width="360" height="145" rx="20" fill="#eef6ff" stroke="#5d80bb" stroke-width="3"/>
+  <text x="250" y="510" text-anchor="middle" class="range">30보다 작은 값</text>
+  <text x="250" y="554" text-anchor="middle" class="note">P0이 가리키는 자식 노드</text>
+
+  <rect x="500" y="450" width="480" height="145" rx="20" fill="#eef6ff" stroke="#5d80bb" stroke-width="3"/>
+  <text x="740" y="510" text-anchor="middle" class="range">30보다 크고 60보다 작은 값</text>
+  <text x="740" y="554" text-anchor="middle" class="note">P1이 가리키는 자식 노드</text>
+
+  <rect x="1050" y="450" width="360" height="145" rx="20" fill="#eef6ff" stroke="#5d80bb" stroke-width="3"/>
+  <text x="1230" y="510" text-anchor="middle" class="range">60보다 큰 값</text>
+  <text x="1230" y="554" text-anchor="middle" class="note">P2가 가리키는 자식 노드</text>
+
+  <text x="740" y="665" text-anchor="middle" class="subtitle">범위를 따로 저장하지 않고 포인터의 위치로 구분한다</text>
+</svg>
