@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="720" viewBox="0 0 1480 720" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1480" height="720" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .step { font-size: 24px; font-weight: 700; }
+    .value { font-size: 25px; font-weight: 600; }
+    .note { font-size: 21px; font-weight: 500; }
+  </style>
+
+  <text x="740" y="66" text-anchor="middle" class="title">중첩 루프 조인의 한 번의 반복</text>
+
+  <text x="265" y="135" text-anchor="middle" class="step">1. 외부 입력에서 한 행을 읽는다</text>
+  <rect x="80" y="170" width="370" height="175" rx="22" fill="#e8f0ff" stroke="#607fb6" stroke-width="4"/>
+  <text x="265" y="220" text-anchor="middle" class="step">외부 입력의 현재 행</text>
+  <text x="265" y="270" text-anchor="middle" class="value">김철수</text>
+  <text x="265" y="314" text-anchor="middle" class="value">department_id = 20</text>
+
+  <line x1="450" y1="258" x2="570" y2="258" stroke="#c9842c" stroke-width="6"/>
+  <polygon points="600,258 558,236 558,280" fill="#c9842c"/>
+
+  <text x="740" y="135" text-anchor="middle" class="step">2. 내부 입력을 탐색한다</text>
+  <rect x="600" y="170" width="280" height="175" rx="22" fill="#fff2da" stroke="#c9842c" stroke-width="4"/>
+  <text x="740" y="220" text-anchor="middle" class="step">조인 키로 탐색</text>
+  <text x="740" y="282" text-anchor="middle" class="value">20</text>
+  <text x="740" y="320" text-anchor="middle" class="note">전체 스캔 또는 인덱스 조회</text>
+
+  <line x1="880" y1="258" x2="1000" y2="258" stroke="#c9842c" stroke-width="6"/>
+  <polygon points="1030,258 988,236 988,280" fill="#c9842c"/>
+
+  <text x="1215" y="135" text-anchor="middle" class="step">3. 일치하는 행을 결합한다</text>
+  <rect x="1030" y="170" width="370" height="175" rx="22" fill="#eef8f3" stroke="#65a082" stroke-width="4"/>
+  <text x="1215" y="220" text-anchor="middle" class="step">결과 행</text>
+  <text x="1215" y="270" text-anchor="middle" class="value">김철수</text>
+  <text x="1215" y="314" text-anchor="middle" class="value">디자인팀</text>
+
+  <line x1="1215" y1="345" x2="1215" y2="450" stroke="#71819a" stroke-width="5"/>
+  <line x1="1215" y1="450" x2="265" y2="450" stroke="#71819a" stroke-width="5"/>
+  <line x1="265" y1="450" x2="265" y2="390" stroke="#71819a" stroke-width="5"/>
+  <polygon points="265,360 243,402 287,402" fill="#71819a"/>
+
+  <rect x="390" y="505" width="700" height="120" rx="22" fill="#f5f7fa" stroke="#71819a" stroke-width="3"/>
+  <text x="740" y="555" text-anchor="middle" class="step">외부 입력의 다음 행으로 반복</text>
+  <text x="740" y="597" text-anchor="middle" class="note">내부 입력에 인덱스가 있으면 반복 탐색 비용을 줄일 수 있다</text>
+</svg>

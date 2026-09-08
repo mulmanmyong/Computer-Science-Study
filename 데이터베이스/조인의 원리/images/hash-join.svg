@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="760" viewBox="0 0 1480 760" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1480" height="760" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .step { font-size: 24px; font-weight: 700; }
+    .value { font-size: 24px; font-weight: 600; }
+    .note { font-size: 21px; font-weight: 500; }
+  </style>
+
+  <text x="740" y="66" text-anchor="middle" class="title">해시 조인의 빌드와 프로브</text>
+
+  <text x="255" y="130" text-anchor="middle" class="step">1. 작은 입력으로 빌드</text>
+  <rect x="80" y="165" width="350" height="190" rx="22" fill="#e8f0ff" stroke="#607fb6" stroke-width="4"/>
+  <text x="255" y="220" text-anchor="middle" class="step">빌드 입력</text>
+  <text x="255" y="275" text-anchor="middle" class="value">10 → 개발팀</text>
+  <text x="255" y="320" text-anchor="middle" class="value">20 → 디자인팀</text>
+
+  <line x1="430" y1="260" x2="550" y2="260" stroke="#c9842c" stroke-width="6"/>
+  <polygon points="580,260 538,238 538,282" fill="#c9842c"/>
+
+  <text x="740" y="130" text-anchor="middle" class="step">2. 해시 테이블 생성</text>
+  <rect x="580" y="165" width="320" height="190" rx="22" fill="#fff2da" stroke="#c9842c" stroke-width="4"/>
+  <text x="740" y="215" text-anchor="middle" class="step">해시 버킷</text>
+  <text x="740" y="270" text-anchor="middle" class="value">h(10) → 개발팀</text>
+  <text x="740" y="315" text-anchor="middle" class="value">h(20) → 디자인팀</text>
+
+  <line x1="900" y1="260" x2="1020" y2="260" stroke="#c9842c" stroke-width="6"/>
+  <polygon points="1050,260 1008,238 1008,282" fill="#c9842c"/>
+
+  <text x="1225" y="130" text-anchor="middle" class="step">3. 다른 입력으로 프로브</text>
+  <rect x="1050" y="165" width="350" height="190" rx="22" fill="#eef8f3" stroke="#65a082" stroke-width="4"/>
+  <text x="1225" y="220" text-anchor="middle" class="step">프로브 입력</text>
+  <text x="1225" y="275" text-anchor="middle" class="value">김철수</text>
+  <text x="1225" y="320" text-anchor="middle" class="value">department_id = 20</text>
+
+  <line x1="1225" y1="355" x2="1225" y2="440" stroke="#65a082" stroke-width="6"/>
+  <line x1="1225" y1="440" x2="740" y2="440" stroke="#65a082" stroke-width="6"/>
+  <polygon points="710,440 752,418 752,462" fill="#65a082"/>
+
+  <rect x="470" y="505" width="540" height="130" rx="22" fill="#f0faf5" stroke="#65a082" stroke-width="4"/>
+  <text x="740" y="558" text-anchor="middle" class="step">같은 버킷에서 실제 키 20을 비교</text>
+  <text x="740" y="607" text-anchor="middle" class="value">김철수 + 디자인팀</text>
+
+  <text x="740" y="705" text-anchor="middle" class="note">해시값으로 후보를 찾은 뒤 원래 조인 키가 같은지 다시 확인한다</text>
+</svg>

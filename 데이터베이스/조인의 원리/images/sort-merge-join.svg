@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="800" viewBox="0 0 1480 800" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1480" height="800" fill="#ffffff"/>
+  <style>
+    text { fill: #25324a; }
+    .title { font-size: 42px; font-weight: 700; }
+    .heading { font-size: 25px; font-weight: 700; }
+    .key { font-size: 26px; font-weight: 700; }
+    .body { font-size: 22px; font-weight: 500; }
+    .match { font-size: 23px; font-weight: 700; fill: #b86f18; }
+  </style>
+
+  <text x="740" y="66" text-anchor="middle" class="title">정렬 병합 조인의 비교 순서</text>
+
+  <text x="370" y="125" text-anchor="middle" class="heading">정렬된 왼쪽 입력</text>
+  <rect x="210" y="155" width="320" height="330" rx="20" fill="#eef6ff" stroke="#607fb6" stroke-width="4"/>
+  <line x1="210" y1="265" x2="530" y2="265" stroke="#607fb6" stroke-width="3"/>
+  <line x1="210" y1="375" x2="530" y2="375" stroke="#607fb6" stroke-width="3"/>
+  <text x="370" y="225" text-anchor="middle" class="key">10</text>
+  <text x="370" y="335" text-anchor="middle" class="key">20</text>
+  <text x="370" y="445" text-anchor="middle" class="key">40</text>
+
+  <text x="1110" y="125" text-anchor="middle" class="heading">정렬된 오른쪽 입력</text>
+  <rect x="950" y="155" width="320" height="330" rx="20" fill="#eef8f3" stroke="#65a082" stroke-width="4"/>
+  <line x1="950" y1="265" x2="1270" y2="265" stroke="#65a082" stroke-width="3"/>
+  <line x1="950" y1="375" x2="1270" y2="375" stroke="#65a082" stroke-width="3"/>
+  <text x="1110" y="225" text-anchor="middle" class="key">20</text>
+  <text x="1110" y="335" text-anchor="middle" class="key">30</text>
+  <text x="1110" y="445" text-anchor="middle" class="key">40</text>
+
+  <rect x="590" y="145" width="300" height="350" rx="20" fill="#fff7e8" stroke="#c9842c" stroke-width="3"/>
+  <text x="740" y="195" text-anchor="middle" class="heading">키 비교</text>
+  <text x="740" y="250" text-anchor="middle" class="body">10 &lt; 20 → 왼쪽 이동</text>
+  <text x="740" y="310" text-anchor="middle" class="match">20 = 20 → 결과 추가</text>
+  <text x="740" y="370" text-anchor="middle" class="body">40 &gt; 30 → 오른쪽 이동</text>
+  <text x="740" y="430" text-anchor="middle" class="match">40 = 40 → 결과 추가</text>
+
+  <line x1="370" y1="485" x2="610" y2="590" stroke="#71819a" stroke-width="5"/>
+  <line x1="1110" y1="485" x2="870" y2="590" stroke="#71819a" stroke-width="5"/>
+  <rect x="500" y="590" width="480" height="130" rx="22" fill="#fff2da" stroke="#c9842c" stroke-width="4"/>
+  <text x="740" y="643" text-anchor="middle" class="heading">조인 결과 키</text>
+  <text x="740" y="693" text-anchor="middle" class="key">20  ·  40</text>
+  <text x="740" y="770" text-anchor="middle" class="body">더 작은 쪽의 위치를 이동하며 두 입력을 한 방향으로 읽는다</text>
+</svg>
