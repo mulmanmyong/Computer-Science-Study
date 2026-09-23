@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+<rect width="1400" height="680" fill="#ffffff"/>
+<text x="700" y="54" text-anchor="middle" font-size="32" font-weight="700" fill="#24334b">트리의 계층과 주요 용어</text>
+<g font-size="21" fill="#64748b"><text x="70" y="180">깊이 0</text><text x="70" y="340">깊이 1</text><text x="70" y="520">깊이 2</text></g>
+<g style="stroke:#d2dbea;stroke-width:2;stroke-dasharray:8 8"><line x1="150" y1="172" x2="1330" y2="172"/><line x1="150" y1="332" x2="1330" y2="332"/><line x1="150" y1="512" x2="1330" y2="512"/></g>
+<g><line x1="700" y1="205" x2="440" y2="305" style="stroke:#64748b;stroke-width:5"/><line x1="700" y1="205" x2="960" y2="305" style="stroke:#64748b;stroke-width:5"/><line x1="440" y1="365" x2="290" y2="485" style="stroke:#64748b;stroke-width:5"/><line x1="440" y1="365" x2="560" y2="485" style="stroke:#64748b;stroke-width:5"/><line x1="960" y1="365" x2="840" y2="485" style="stroke:#64748b;stroke-width:5"/><line x1="960" y1="365" x2="1110" y2="485" style="stroke:#64748b;stroke-width:5"/></g>
+<g fill="#dce8ff" stroke="#4f6f9f" stroke-width="3"><circle cx="700" cy="172" r="52"/><circle cx="440" cy="332" r="48"/><circle cx="960" cy="332" r="48"/></g>
+<g fill="#e3f5ea" stroke="#4b8f6b" stroke-width="3"><circle cx="290" cy="512" r="46"/><circle cx="560" cy="512" r="46"/><circle cx="840" cy="512" r="46"/><circle cx="1110" cy="512" r="46"/></g>
+<g font-size="27" font-weight="700" fill="#24334b" text-anchor="middle"><text x="700" y="181">A</text><text x="440" y="341">B</text><text x="960" y="341">C</text><text x="290" y="521">D</text><text x="560" y="521">E</text><text x="840" y="521">F</text><text x="1110" y="521">G</text></g>
+<g font-size="21" text-anchor="middle"><text x="700" y="105" fill="#315b9b" font-weight="700">루트 노드</text><text x="440" y="415" fill="#315b9b">내부 노드·부모</text><text x="960" y="415" fill="#315b9b">내부 노드·부모</text><text x="700" y="608" fill="#3c7a58" font-weight="700">D, E, F, G는 자식이 없는 리프 노드</text></g>
+<path d="M1215 185 V500" style="stroke:#b7791f;stroke-width:3;fill:none"/>
+<polygon points="1215,510 1207,492 1223,492" fill="#b7791f"/>
+<text x="1250" y="350" font-size="21" fill="#8a5711">깊이 증가</text>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+<rect width="1400" height="620" fill="#ffffff"/>
+<text x="700" y="54" text-anchor="middle" font-size="32" font-weight="700" fill="#24334b">그래프의 종류</text>
+<rect x="50" y="95" width="400" height="455" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="500" y="95" width="400" height="455" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="950" y="95" width="400" height="455" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+<text x="250" y="145" text-anchor="middle" font-size="26" font-weight="700" fill="#315b9b">무방향 그래프</text>
+<text x="700" y="145" text-anchor="middle" font-size="26" font-weight="700" fill="#315b9b">방향 그래프</text>
+<text x="1150" y="145" text-anchor="middle" font-size="26" font-weight="700" fill="#315b9b">가중치 그래프</text>
+<g><line x1="160" y1="250" x2="340" y2="250" style="stroke:#64748b;stroke-width:4"/><line x1="160" y1="250" x2="250" y2="420" style="stroke:#64748b;stroke-width:4"/><line x1="340" y1="250" x2="250" y2="420" style="stroke:#64748b;stroke-width:4"/></g>
+<g fill="#dce8ff" stroke="#4f6f9f" stroke-width="3"><circle cx="160" cy="250" r="42"/><circle cx="340" cy="250" r="42"/><circle cx="250" cy="420" r="42"/></g>
+<g font-size="25" font-weight="700" fill="#24334b" text-anchor="middle"><text x="160" y="259">A</text><text x="340" y="259">B</text><text x="250" y="429">C</text></g>
+<g><line x1="610" y1="250" x2="778" y2="250" style="stroke:#64748b;stroke-width:4"/><line x1="790" y1="265" x2="712" y2="402" style="stroke:#64748b;stroke-width:4"/><line x1="686" y1="402" x2="608" y2="265" style="stroke:#64748b;stroke-width:4"/></g>
+<g fill="#64748b"><polygon points="720,250 702,241 702,259"/><polygon points="744,345 746,325 760,333"/><polygon points="640,321 656,331 644,340"/></g>
+<g fill="#dce8ff" stroke="#4f6f9f" stroke-width="3"><circle cx="610" cy="250" r="42"/><circle cx="790" cy="250" r="42"/><circle cx="700" cy="420" r="42"/></g>
+<g font-size="25" font-weight="700" fill="#24334b" text-anchor="middle"><text x="610" y="259">A</text><text x="790" y="259">B</text><text x="700" y="429">C</text></g>
+<g><line x1="1060" y1="250" x2="1240" y2="250" style="stroke:#64748b;stroke-width:4"/><line x1="1060" y1="250" x2="1150" y2="420" style="stroke:#64748b;stroke-width:4"/><line x1="1240" y1="250" x2="1150" y2="420" style="stroke:#64748b;stroke-width:4"/></g>
+<g fill="#fff1d6" stroke="#b7791f" stroke-width="2"><rect x="1125" y="220" width="50" height="38" rx="8"/><rect x="1080" y="320" width="50" height="38" rx="8"/><rect x="1170" y="320" width="50" height="38" rx="8"/></g>
+<g font-size="20" font-weight="700" fill="#8a5711" text-anchor="middle"><text x="1150" y="246">5</text><text x="1105" y="346">2</text><text x="1195" y="346">8</text></g>
+<g fill="#dce8ff" stroke="#4f6f9f" stroke-width="3"><circle cx="1060" cy="250" r="42"/><circle cx="1240" cy="250" r="42"/><circle cx="1150" cy="420" r="42"/></g>
+<g font-size="25" font-weight="700" fill="#24334b" text-anchor="middle"><text x="1060" y="259">A</text><text x="1240" y="259">B</text><text x="1150" y="429">C</text></g>
+<g font-size="20" fill="#475569" text-anchor="middle"><text x="250" y="515">양쪽으로 이동 가능</text><text x="700" y="515">화살표 방향으로 이동</text><text x="1150" y="515">간선에 비용·거리 저장</text></g>
+</svg>

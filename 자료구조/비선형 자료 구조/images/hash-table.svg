@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+<rect width="1400" height="680" fill="#ffffff"/>
+<text x="700" y="54" text-anchor="middle" font-size="32" font-weight="700" fill="#24334b">해시 테이블의 저장 과정과 충돌</text>
+<text x="180" y="120" text-anchor="middle" font-size="24" font-weight="700" fill="#315b9b">키</text>
+<text x="570" y="120" text-anchor="middle" font-size="24" font-weight="700" fill="#315b9b">해시 함수</text>
+<text x="1050" y="120" text-anchor="middle" font-size="24" font-weight="700" fill="#315b9b">버킷 배열</text>
+<g fill="#eaf1ff" stroke="#4f6f9f" stroke-width="2"><rect x="70" y="165" width="220" height="65" rx="12"/><rect x="70" y="285" width="220" height="65" rx="12"/><rect x="70" y="405" width="220" height="65" rx="12"/></g>
+<g font-size="23" fill="#24334b" text-anchor="middle"><text x="180" y="206">김민준</text><text x="180" y="326">박지훈</text><text x="180" y="446">이서연</text></g>
+<rect x="440" y="235" width="260" height="170" rx="22" fill="#fff1d6" stroke="#b7791f" stroke-width="3"/>
+<text x="570" y="310" text-anchor="middle" font-size="25" font-weight="700" fill="#8a5711">hash(키)</text>
+<text x="570" y="352" text-anchor="middle" font-size="21" fill="#8a5711">버킷 인덱스 계산</text>
+<g><line x1="290" y1="198" x2="430" y2="275" style="stroke:#64748b;stroke-width:4"/><line x1="290" y1="318" x2="430" y2="318" style="stroke:#64748b;stroke-width:4"/><line x1="290" y1="438" x2="430" y2="365" style="stroke:#64748b;stroke-width:4"/><line x1="700" y1="320" x2="840" y2="320" style="stroke:#64748b;stroke-width:4"/></g>
+<g fill="#64748b"><polygon points="440,280 424,268 427,286"/><polygon points="440,318 422,309 422,327"/><polygon points="440,360 425,352 423,370"/><polygon points="850,320 832,311 832,329"/></g>
+<g font-size="21" fill="#64748b" text-anchor="middle"><text x="765" y="302">0, 1, 2, 3</text></g>
+<g stroke="#64748b" stroke-width="2"><rect x="850" y="150" width="90" height="80" fill="#f8fafc"/><rect x="850" y="230" width="90" height="80" fill="#f8fafc"/><rect x="850" y="310" width="90" height="80" fill="#f8fafc"/><rect x="850" y="390" width="90" height="80" fill="#f8fafc"/></g>
+<g font-size="23" fill="#24334b" text-anchor="middle"><text x="895" y="198">0</text><text x="895" y="278">1</text><text x="895" y="358">2</text><text x="895" y="438">3</text></g>
+<rect x="940" y="230" width="190" height="80" fill="#e3f5ea" stroke="#4b8f6b" stroke-width="2"/>
+<rect x="940" y="310" width="190" height="80" fill="#e3f5ea" stroke="#4b8f6b" stroke-width="2"/>
+<rect x="1150" y="310" width="190" height="80" fill="#ffe4e8" stroke="#c85c72" stroke-width="2"/>
+<g font-size="22" fill="#24334b" text-anchor="middle"><text x="1035" y="278">이서연</text><text x="1035" y="358">김민준</text><text x="1245" y="358">박지훈</text></g>
+<line x1="1130" y1="350" x2="1140" y2="350" style="stroke:#c85c72;stroke-width:4"/>
+<polygon points="1150,350 1132,341 1132,359" fill="#c85c72"/>
+<text x="1190" y="435" text-anchor="middle" font-size="21" font-weight="700" fill="#b2435a">같은 버킷: 충돌 처리</text>
+<text x="700" y="590" text-anchor="middle" font-size="22" fill="#475569">서로 다른 키가 같은 버킷에 대응할 수 있으므로 충돌 처리 방법이 필요하다.</text>
+</svg>
